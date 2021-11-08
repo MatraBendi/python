@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+
+#madlips
+nev = input("Irjon be egy nevet: ")
+szin = input("Irjon be egy szint: ")
+szam = int(input("Irjon be egy szamot: "))
+varos = input("Adjon meg egy varost: ")
+print(nev + " szerint a " + szin + " ronda szin")
+if szam < 5:
+	print(nev + " nem iszik sokat")
+else:
+	print(nev + " sokat iszik")
+print(nev + " kedvenc varosa: " + varos)
+
+
+#random nev generator
+import random
+csaladnev = ["Nagy", "Kiss", "Huszar", "Szabo", "Varga", "Balogh"]
+keresztnev = ["Pista", "Bence", "Adam", "Zsofi", "Hanga", "Fanni"]
+group = [] 
+egybenev = random.choice(csaladnev) +" " +  random.choice(keresztnev)
+group.append(egybenev)
+
+print(egybenev)
+
+
+group2 = []
+egybenev2 = (random.choice(csaladnev) +" " +  random.choice(keresztnev) for i in range(3))
+grou
+group_string = ", ".join(group2)
+print(egybenev2)
