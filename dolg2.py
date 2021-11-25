@@ -4,19 +4,18 @@ try:
         iras = open((bekert + "-out.txt"), 'wt')
 except:
         print("Hibas a megadott fajl")
-        exit()
-line = olvasas.readline()
+	exit()
+be = olvasas.readline()
 szamolo = 0
-while line:
+while be:
         szoveg = ""
         if szamolo % 2 != 0:
                 szoveg += line.lower()
         else:
                 szoveg += line.upper()
         szamolo += 1
-        print(szamolo)
         iras.write(szoveg)
         print(szoveg, end="")
-        line = olvasas.readline()
+        be = olvasas.readline()
 olvasas.close()
 iras.close()
