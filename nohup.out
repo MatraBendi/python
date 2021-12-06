@@ -1,0 +1,68 @@
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mGET /cars.json [33m404[0m 14.438 ms - 2[0m
+[0mGET /cars [32m200[0m 6.428 ms - 749[0m
+[0mGET /cars [32m200[0m 13.189 ms - 749[0m
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
