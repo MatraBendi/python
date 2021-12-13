@@ -66,3 +66,137 @@ Cannot bind to the port 3000. Please specify another port number either through 
   Watching...
 
 Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+[0mGET /cars [32m200[0m 11.696 ms - 749[0m
+[0mGET /cars [32m200[0m 16.092 ms - 749[0m
+[0mGET /cars [32m200[0m 3.528 ms - 749[0m
+[0mGET /cars [32m200[0m 3.459 ms - 749[0m
+[0mGET /cars [32m200[0m 3.473 ms - 749[0m
+[0mGET /cars [32m200[0m 14.990 ms - 749[0m
+[0mGET /cars [32m200[0m 3.402 ms - 749[0m
+[0mGET /cars [32m200[0m 4.731 ms - 749[0m
+[0mGET /cars [32m200[0m 3.362 ms - 749[0m
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+
+  \{^_^}/ hi!
+
+  Loading ddns.json
+  Done
+
+  Resources
+  http://localhost:3000/ddns
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+[0mGET /ddns [33m404[0m 5.964 ms - 2[0m
+[0mGET /ddns [33m404[0m 1.868 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading ddns.json
+  Done
+
+  Resources
+  http://localhost:3000/ddns
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mGET /ddns [32m200[0m 11.778 ms - 321[0m
+[0mGET /ddns [32m200[0m 3.492 ms - 321[0m
+[0mGET /ddns [32m200[0m 2.291 ms - 321[0m
+[0mGET /ddns [32m200[0m 3.439 ms - 321[0m
+[0mGET /ddns [32m200[0m 3.393 ms - 321[0m
+[0mGET /ddns/2 [32m200[0m 5.010 ms - 92[0m
+  Error reading /home/bendi/python/ddns.json
+No data, empty input at 1:1
+
+^
+  Read error has been fixed :)
+  ddns.json has changed, reloading...
+
+  Loading ddns.json
+  Done
+
+  Resources
+  http://localhost:3000/ddns
+
+  Home
+  http://localhost:3000
+
+[0mGET /ddns/2 [32m200[0m 3.983 ms - 89[0m
+[0mGET /ddns?_sort=brand&_order=desc%22 [32m200[0m 4.636 ms - 312[0m
