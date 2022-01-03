@@ -200,3 +200,38 @@ No data, empty input at 1:1
 
 [0mGET /ddns/2 [32m200[0m 3.983 ms - 89[0m
 [0mGET /ddns?_sort=brand&_order=desc%22 [32m200[0m 4.636 ms - 312[0m
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mGET /cars [32m200[0m 11.880 ms - 749[0m
