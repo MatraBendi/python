@@ -235,3 +235,118 @@ No data, empty input at 1:1
   Error, can't read from stdin
   Creating a snapshot from the CLI won't be possible
 [0mGET /cars [32m200[0m 11.880 ms - 749[0m
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+
+  \{^_^}/ hi!
+
+  Loading ddns.json
+  Done
+
+  Resources
+  http://localhost:3000/ddns
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+[0mPUT /ddns/idk [33m404[0m 94.429 ms - 2[0m
+[0mGET /ddns [33m404[0m 1.782 ms - 2[0m
+[0mPUT /ddns/idk [33m404[0m 2.474 ms - 2[0m
+[0mGET /ddns/idk [33m404[0m 1.772 ms - 2[0m
+[0mPUT /ddns/idk [33m404[0m 2.653 ms - 2[0m
+[0mGET /ddns/ [33m404[0m 1.807 ms - 2[0m
+[0mPUT /ddns/idk [33m404[0m 2.565 ms - 2[0m
+[0mGET /ddns/ [33m404[0m 1.845 ms - 2[0m
+[0mPUT /ddns/idk [33m404[0m 2.517 ms - 2[0m
+[0mGET /ddns/ [33m404[0m 1.802 ms - 2[0m
+[0mGET /ddns/2 [33m404[0m 1.846 ms - 2[0m
+[0mGET /ddns/1 [33m404[0m 1.868 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading ddns.json
+  Done
+
+  Resources
+  http://localhost:3000/ddns
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mGET /ddns/1 [32m200[0m 12.051 ms - 91[0m
+[0mPUT /ddns/idk [33m404[0m 22.368 ms - 2[0m
+[0mGET /ddns/ [32m200[0m 5.161 ms - 312[0m
+[0mPUT /ddns/szam1 [33m404[0m 4.172 ms - 2[0m
+[0mGET /ddns/ [32m200[0m 3.388 ms - 312[0m
+[0mGET /ddns/1 [32m200[0m 4.073 ms - 91[0m
+[0mGET /ddns/1 [32m200[0m 2.919 ms - 91[0m
+[0mGET /ddns/4 [33m404[0m 3.947 ms - 2[0m
+[0mGET /ddns/5 [33m404[0m 3.943 ms - 2[0m
+[0mGET /ddns/10 [33m404[0m 3.927 ms - 2[0m
+[0mGET /ddns/1 [32m200[0m 4.296 ms - 91[0m
+[0mGET /ddns/10 [33m404[0m 3.944 ms - 2[0m
+[0mGET /ddns/10 [33m404[0m 3.897 ms - 2[0m
+[0mGET /ddns/10 [33m404[0m 3.843 ms - 2[0m
+[0mGET /ddns/1 [32m200[0m 3.978 ms - 91[0m
+[0mGET /ddns/1 [32m200[0m 4.004 ms - 91[0m
+[0mGET /ddns/1 [32m200[0m 3.988 ms - 91[0m
+[0mGET /ddns/1 [32m200[0m 2.809 ms - 91[0m
+[0mGET /ddns/10 [33m404[0m 5.622 ms - 2[0m
+[0mGET /ddns/1 [32m200[0m 3.926 ms - 91[0m
+[0mGET /ddns/1 [32m200[0m 3.943 ms - 91[0m
+[0mGET /ddns/1 [32m200[0m 3.885 ms - 91[0m

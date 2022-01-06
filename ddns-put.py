@@ -1,14 +1,23 @@
-import requests, json
+import requests, json , sys
+
+ip = input("adjon meg egy ip-t: ")
+
+if len(sys.argv) == 1:
+	print("Nem adt")
+	exit()
+
+szam = sys.argv[1]
+
+if szam ==  sys.argv[1]:
+	print("jo szamot adott meg")
+else:
+	print("Hibas szam (csak 1 lehet vagy 2)")
 
 ct_h = {"Content-Type" : "application/json"}
-d = {"id": 1,
-      "nev": "otthoni",
-      "ip": "31.251.53.1",
-      "datum": "2022.01.03 14:31:30"}
+d = {"id": szam, "nev": "otthoni", "model": ip, "datum": "1988.10.12. 12:00:21"}
 try:
-        valasz = requests.put("http://localhost:3000/ddns/1", data=json.dumps(d), headers = ct_h)
+        valasz = requests.get("http://localhost:3000/ddns/"+ szam, data=json.dumps(d), headers = ct_h)
         print(valasz.status_code)
-        valasz = requests.get("http://localhost:3000/ddns%22)
+#	valasz = requests.put("http://localhost:3000/ddns/" + szam)
 except:
         print("Mas hiba")
-print(valasz.text)
