@@ -350,3 +350,84 @@ Cannot bind to the port 3000. Please specify another port number either through 
 [0mGET /ddns/1 [32m200[0m 3.926 ms - 91[0m
 [0mGET /ddns/1 [32m200[0m 3.943 ms - 91[0m
 [0mGET /ddns/1 [32m200[0m 3.885 ms - 91[0m
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Cannot bind to the port 3000. Please specify another port number either through --port argument or through the json-server.json configuration file
+[0mGET /cars [32m200[0m 11.840 ms - 749[0m
+[0mGET /cars [32m200[0m 3.625 ms - 749[0m
+[0mGET /cars [32m200[0m 3.531 ms - 749[0m
+
+  \{^_^}/ hi!
+
+  Loading ddns.json
+  Done
+
+  Resources
+  http://localhost:3000/ddns
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+
+  \{^_^}/ hi!
+
+  Loading ddns.json
+  Done
+
+  Resources
+  http://localhost:3000/ddns
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mGET /ddns/1 [32m200[0m 12.273 ms - 91[0m
+[0mGET /ddns/1 [32m200[0m 3.494 ms - 91[0m
+[0mGET /ddns/2 [32m200[0m 3.418 ms - 89[0m
+[0mGET /ddns/3 [32m200[0m 3.454 ms - 88[0m
+[0mGET /ddns/3 [32m200[0m 3.469 ms - 88[0m
+[0mGET /ddns/3 [32m200[0m 3.383 ms - 88[0m
+[0mPUT /ddns/1 [32m200[0m 23.888 ms - 96[0m
+[0mGET /ddns/1 [32m200[0m 3.461 ms - 96[0m
+[0mGET /ddns/1 [32m200[0m 3.416 ms - 96[0m
+[0mPUT /ddns/1 [32m200[0m 4.196 ms - 89[0m
+[0mGET /ddns/1 [32m200[0m 3.429 ms - 89[0m
