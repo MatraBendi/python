@@ -1,0 +1,12 @@
+-Session Object--  
+
+s = requests.Session()
+
+Fejlec hozzadasa =  s.headers.update({"k" : "e"})
+       hitelesites = s.auth("user", "pass")
+		     s.get(url, headers={"k2" : "e2"}
+s.get(
+s.post(
+s.put(
+s.delete(
+
