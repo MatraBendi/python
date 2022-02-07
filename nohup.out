@@ -431,3 +431,385 @@ Cannot bind to the port 3000. Please specify another port number either through 
 [0mGET /ddns/1 [32m200[0m 3.416 ms - 96[0m
 [0mPUT /ddns/1 [32m200[0m 4.196 ms - 89[0m
 [0mGET /ddns/1 [32m200[0m 3.429 ms - 89[0m
+Proxy server listening at http://*:8080
+[::1]:37176: clientconnect
+::1:37176: request
+  -> Request(GET postman-echo.com:80/basic-auth)
+::1:37176: Set new server address: postman-echo.com:80
+::1:37176: serverconnect
+  -> ('postman-echo.com', 80)
+::1:37176: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:37176: GET http://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:15:38 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3AXzDMS6PScO1jfNo4-p8ODFNzG4QSKxRK.7dtBJkszsGY3D%2BgIqdVXKKgk6Zk85DbSCsWCPQNATB0; Path=/; HttpOnly
+::1:37176: serverdisconnect
+  -> ('postman-echo.com', 80)
+[::1]:37176: clientdisconnect
+[::1]:37520: clientconnect
+::1:37520: request
+  -> Request(GET postman-echo.com:80/basic-auth)
+::1:37520: Set new server address: postman-echo.com:80
+::1:37520: serverconnect
+  -> ('postman-echo.com', 80)
+::1:37520: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:37520: GET http://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:28:16 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3AtC2YiiEgVQeGSL_N1sInm31R6Fiu99y1.x60rS9YyLwgaGZ3wFftpqRD0SRQZVZw4HwlucJWIodo; Path=/; HttpOnly
+::1:37520: serverdisconnect
+  -> ('postman-echo.com', 80)
+[::1]:37520: clientdisconnect
+[::1]:37538: clientconnect
+::1:37538: request
+  -> Request(GET postman-echo.com:80/basic-auth)
+::1:37538: Set new server address: postman-echo.com:80
+::1:37538: serverconnect
+  -> ('postman-echo.com', 80)
+::1:37538: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:37538: GET http://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:28:51 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3AnhH33GmYtevWxnEls8xHiViGPqyKMPsF.ws4hn3BTEC7hwSRL0O2VlI%2FL5wRvKN%2Fc%2B61oRxcam0Y; Path=/; HttpOnly
+::1:37538: serverdisconnect
+  -> ('postman-echo.com', 80)
+[::1]:37538: clientdisconnect
+[::1]:37572: clientconnect
+::1:37572: Set new server address: postman-echo.com:443
+::1:37572: serverconnect
+  -> ('postman-echo.com', 443)
+::1:37572: Establish TLS with server
+::1:37572: ALPN selected by server: http/1.1
+::1:37572: Establish TLS with client
+::1:37572: ALPN for client: b'http/1.1'
+::1:37572: Failed to send error response to client: ClientHandshakeException('Cannot establish TLS with client (sni: postman-echo.com): TlsException("SSL handshake error: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert unknown ca\')])")')
+[::1]:37572: CONNECT postman-echo.com:443 HTTP/1.0
+ << Cannot establish TLS with client (sni: postman-echo.com): TlsException("SSL handshake error: Error([('SSL routines', 'ssl3_read_bytes', 'tlsv1 alert unknown ca')])")
+::1:37572: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:37572: clientdisconnect
+Error starting proxy server: OSError(98, 'Address already in use')
+[::1]:37584: clientconnect
+::1:37584: Set new server address: postman-echo.com:443
+::1:37584: serverconnect
+  -> ('postman-echo.com', 443)
+::1:37584: Establish TLS with server
+::1:37584: ALPN selected by server: http/1.1
+::1:37584: Establish TLS with client
+::1:37584: ALPN for client: b'http/1.1'
+::1:37584: Failed to send error response to client: ClientHandshakeException('Cannot establish TLS with client (sni: postman-echo.com): TlsException("SSL handshake error: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert unknown ca\')])")')
+[::1]:37584: CONNECT postman-echo.com:443 HTTP/1.0
+ << Cannot establish TLS with client (sni: postman-echo.com): TlsException("SSL handshake error: Error([('SSL routines', 'ssl3_read_bytes', 'tlsv1 alert unknown ca')])")
+::1:37584: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:37584: clientdisconnect
+Error: mitmproxy's console interface requires a tty. Please run mitmproxy in an interactive shell environment.
+Proxy server listening at http://*:8080
+[::1]:37808: clientconnect
+::1:37808: request
+  -> Request(GET postman-echo.com:80/basic-auth)
+::1:37808: Set new server address: postman-echo.com:80
+::1:37808: serverconnect
+  -> ('postman-echo.com', 80)
+::1:37808: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:37808: GET http://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:37:10 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3AE7XWxhMs5zbtA81BR5t-zNODSlGR_1ua.yHUmgnB4S2PwC3A66hIaFcb7sA%2B6e8aI9RJ1KpRNv%2FE; Path=/; HttpOnly
+::1:37808: serverdisconnect
+  -> ('postman-echo.com', 80)
+[::1]:37808: clientdisconnect
+[::1]:38114: clientconnect
+::1:38114: request
+  -> Request(GET postman-echo.com:80/basic-auth)
+::1:38114: Set new server address: postman-echo.com:80
+::1:38114: serverconnect
+  -> ('postman-echo.com', 80)
+::1:38114: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:38114: GET http://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:48:22 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3ACAQKI-LJbAVtDwsDdhMmWAVD6GL3GEn9.Ui1YOdxizgIj8rTwEZ5JZkJeQ6x0sCCVc%2FV5HCMTryo; Path=/; HttpOnly
+::1:38114: serverdisconnect
+  -> ('postman-echo.com', 80)
+[::1]:38114: clientdisconnect
+[::1]:38118: clientconnect
+::1:38118: request
+  -> Request(GET postman-echo.com:80/basic-auth)
+::1:38118: Set new server address: postman-echo.com:80
+::1:38118: serverconnect
+  -> ('postman-echo.com', 80)
+::1:38118: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:38118: GET http://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:48:25 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3AoQAEJf-39UsBuhkG4nIAb_dT9_wBY30i.3wCKNj1puAaa6nJvMcqNiEw6B6Crch%2FcgiIyDao%2FMME; Path=/; HttpOnly
+::1:38118: serverdisconnect
+  -> ('postman-echo.com', 80)
+[::1]:38118: clientdisconnect
+[::1]:38120: clientconnect
+::1:38120: Set new server address: postman-echo.com:443
+::1:38120: serverconnect
+  -> ('postman-echo.com', 443)
+::1:38120: Establish TLS with server
+::1:38120: ALPN selected by server: http/1.1
+::1:38120: Establish TLS with client
+::1:38120: ALPN for client: b'http/1.1'
+::1:38120: Failed to send error response to client: ClientHandshakeException('Cannot establish TLS with client (sni: postman-echo.com): TlsException("SSL handshake error: Error([(\'SSL routines\', \'ssl3_read_bytes\', \'tlsv1 alert unknown ca\')])")')
+[::1]:38120: CONNECT postman-echo.com:443 HTTP/1.0
+ << Cannot establish TLS with client (sni: postman-echo.com): TlsException("SSL handshake error: Error([('SSL routines', 'ssl3_read_bytes', 'tlsv1 alert unknown ca')])")
+::1:38120: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:38120: clientdisconnect
+[::1]:38360: clientconnect
+::1:38360: Set new server address: postman-echo.com:443
+::1:38360: serverconnect
+  -> ('postman-echo.com', 443)
+::1:38360: Establish TLS with server
+::1:38360: ALPN selected by server: http/1.1
+::1:38360: Establish TLS with client
+::1:38360: ALPN for client: b'http/1.1'
+::1:38360: request
+  -> Request(GET /basic-auth)
+::1:38360: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:38360: GET https://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:56:17 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3A0MQBo6BpdOqOl-lNnTezcdCOS3aCW__P.0FtQsJAtMRKyycRTuYKinTCakxGrVdxpaeDMpk45mWs; Path=/; HttpOnly
+::1:38360: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:38360: clientdisconnect
+[::1]:38388: clientconnect
+::1:38388: Set new server address: postman-echo.com:443
+::1:38388: serverconnect
+  -> ('postman-echo.com', 443)
+::1:38388: Establish TLS with server
+::1:38388: ALPN selected by server: http/1.1
+::1:38388: Establish TLS with client
+::1:38388: ALPN for client: b'http/1.1'
+::1:38388: request
+  -> Request(GET /basic-auth)
+::1:38388: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:38388: GET https://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:57:00 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3AZ6MXF7ke-Z4Z9OM2uhXdcUhdq08GQuZN.Pq%2Bt0D%2Fuy5lQYQcrPDhP2p%2FutdBLPgzR4bOsh1r1%2FwU; Path=/; HttpOnly
+::1:38388: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:38388: clientdisconnect
+[::1]:38462: clientconnect
+::1:38462: Set new server address: postman-echo.com:443
+::1:38462: serverconnect
+  -> ('postman-echo.com', 443)
+::1:38462: Establish TLS with server
+::1:38462: ALPN selected by server: http/1.1
+::1:38462: Establish TLS with client
+::1:38462: ALPN for client: b'http/1.1'
+::1:38462: request
+  -> Request(GET /basic-auth)
+::1:38462: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:38462: GET https://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:58:59 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3ARAxj5LF6Wn8vJfVlg6x3Pwk2dMSzRknd.3gEqfXGxLlaWrPVQBrWCWY3WYPo2HoLr0CGexbzDHRo; Path=/; HttpOnly
+::1:38462: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:38462: clientdisconnect
+[::1]:38480: clientconnect
+::1:38480: Set new server address: postman-echo.com:443
+::1:38480: serverconnect
+  -> ('postman-echo.com', 443)
+::1:38480: Establish TLS with server
+::1:38480: ALPN selected by server: http/1.1
+::1:38480: Establish TLS with client
+::1:38480: ALPN for client: b'http/1.1'
+::1:38480: request
+  -> Request(GET /basic-auth)
+::1:38480: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:38480: GET https://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 13:59:36 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3A3oCYt4bVrcS_1fVQHcJC6Ol-7xm8qVIN.thgRil8pyXztR5w%2FBae0SWoyV9bIV9xkM2xRudJU4tI; Path=/; HttpOnly
+::1:38480: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:38480: clientdisconnect
+[::1]:38524: clientconnect
+::1:38524: Set new server address: postman-echo.com:443
+::1:38524: serverconnect
+  -> ('postman-echo.com', 443)
+::1:38524: Establish TLS with server
+::1:38524: ALPN selected by server: http/1.1
+::1:38524: Establish TLS with client
+::1:38524: ALPN for client: b'http/1.1'
+::1:38524: request
+  -> Request(GET /basic-auth)
+::1:38524: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:38524: GET https://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 14:01:04 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3ANxt2y_zGyNYOJj7e9ufBIFQ9AtXSR159.W%2FFb7ZPmpkHDEKu6asp7fykRI48PSrwNlt9iIH42e64; Path=/; HttpOnly
+::1:38524: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:38524: clientdisconnect
+[::1]:38566: clientconnect
+::1:38566: Set new server address: postman-echo.com:443
+::1:38566: serverconnect
+  -> ('postman-echo.com', 443)
+::1:38566: Establish TLS with server
+::1:38566: ALPN selected by server: http/1.1
+::1:38566: Establish TLS with client
+::1:38566: ALPN for client: b'http/1.1'
+::1:38566: request
+  -> Request(GET /basic-auth)
+::1:38566: response
+  -> Response(200, application/json; charset=utf-8, 22b)
+[::1]:38566: GET https://postman-echo.com/basic-auth
+    Host: postman-echo.com
+    User-Agent: python-requests/2.25.1
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+ << 200 OK 22b
+    Date: Mon, 07 Feb 2022 14:02:11 GMT
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 22
+    Connection: keep-alive
+    ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+    Vary: Accept-Encoding
+    set-cookie: sails.sid=s%3AE7fizIA6PsRi-zxwHoEHwnyU9nSQXLGg.5rREavY7G2RssFdGSjUebMEAYr79UsA1cVZfsVtqz7E; Path=/; HttpOnly
+::1:38566: serverdisconnect
+  -> ('postman-echo.com', 443)
+[::1]:38566: clientdisconnect

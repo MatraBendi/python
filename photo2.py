@@ -29,4 +29,3 @@ elif a == 411:
 	print("Rosszul lett megadva a meret")
 else:
 	print("Belso hiba")
-
