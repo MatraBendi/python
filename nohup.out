@@ -813,3 +813,6 @@ Proxy server listening at http://*:8080
 ::1:38566: serverdisconnect
   -> ('postman-echo.com', 443)
 [::1]:38566: clientdisconnect
+Only processing flows that match "–-ssl-insecure & -v"
+Proxy server listening at http://*:8080
+Error starting proxy server: OSError(98, 'Address already in use')
