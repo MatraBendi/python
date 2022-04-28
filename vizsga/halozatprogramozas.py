@@ -8,7 +8,8 @@ s1 = {
 
 
 }
+passw = input("Uj VTP jelszo: ")
 sw1 = ConnectHandler(**s1)
-valasz = sw1.send_command("vtp password SouthBrokers")
+valasz = sw1.send_command(f"vtp password {passw}")
 print(valasz)
 sw1.disconnect()
